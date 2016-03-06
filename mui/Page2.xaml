@@ -1,0 +1,48 @@
+﻿<Page x:Class="mui.Page2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d"
+	Title="Page2" Height="437" Width="700">
+
+    <!--Grid>
+        
+        <Grid HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top" Width="680" Height="43">
+            <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Base_Url" VerticalAlignment="Top" Width="77" FontSize="18"/>
+            <TextBox Name="Textbox_Url" HorizontalAlignment="Left" Height="23" Margin="130,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="540" FontSize="18"/>
+        </Grid>
+        
+        <Grid HorizontalAlignment="Left" Margin="10,80,0,0" VerticalAlignment="Top" Width="680" Height="43">
+            <TextBlock Text="Depth" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="65" FontSize="18"/>
+            <TextBox Name="Textbox_Depth" HorizontalAlignment="Left" Height="23" Margin="130,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="75"/>
+            <Button Content="Scan" HorizontalAlignment="Left" Margin="300,5,0,0" VerticalAlignment="Top" Width="100" Click="Scan_Click" FontSize="18" BorderThickness="0" Opacity="0.5"/>
+        </Grid>
+        
+        <ListView Name="lv" HorizontalAlignment="Left" Height="241" Margin="10,130,0,0" VerticalAlignment="Top" Width="680" BorderThickness="1">
+            <ListView.Effect>
+                <DropShadowEffect/>
+            </ListView.Effect>
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Order" DisplayMemberBinding="{Binding Order}" Width="60"/>
+                    <GridViewColumn Header="Download Url" DisplayMemberBinding="{Binding Url}" Width="500"/>
+                    <GridViewColumn Header="finish" DisplayMemberBinding="{Binding fin}" Width="60"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <Grid HorizontalAlignment="Left" Margin="10,384,0,0" VerticalAlignment="Top" Width="680" Height="43">
+            <Button Content="Delete" HorizontalAlignment="Left" Margin="10,5,0,0" VerticalAlignment="Top" Width="100" Click="Delete_click" FontSize="18"/>
+            <TextBox Name="Textbox_Num" HorizontalAlignment="Left" Height="23" Margin="150,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100" FontSize="18"/>
+            <Button Content="Download" HorizontalAlignment="Left" Margin="280,5,0,0" VerticalAlignment="Top" Width="120" Click="Download_Click" FontSize="18" BorderThickness="0" Opacity="0.5"/>
+            <Button Content="Stop" HorizontalAlignment="Left" Margin="450,5,0,0" VerticalAlignment="Top" Width="75" Click="Stop_Click" FontSize="18" Opacity="0.5" BorderThickness="0"/>
+            
+            
+            
+        </Grid>
+        
+        
+        
+    </Grid-->
+</Page>
